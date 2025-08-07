@@ -8,7 +8,7 @@ Model pipeline for simulating the reception and processing of IoT sensor end-dev
 4. **Amazon EC2 Instance (Web App Hosting)** Amazon Linux (t3.micro) hosts the dashboard as a public web-app using Streamlit.
 5. **Web Dashboard Frontend (Dashboard and Explainability)** parses `.json` files from S3 storage and displays most recent device readings. Aggregates and averages sensor readings across all devices.
 
-![IoT Monitoring Architecture](images/iot_architecture.png)
+![IoT Monitoring Architecture](iot_architecture.jpg)
 
 # FUTURE WORKS
 - Introduce environment variables for API key referencing.
